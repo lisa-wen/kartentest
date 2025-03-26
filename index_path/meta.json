@@ -1,0 +1,335 @@
+{
+  "index_settings": {
+    "docstore_compression": "lz4",
+    "docstore_blocksize": 16384
+  },
+  "segments": [
+    {
+      "segment_id": "273d2ef9-8d3b-4801-a0cf-7e4642aaee38",
+      "max_doc": 120295,
+      "deletes": null
+    },
+    {
+      "segment_id": "1b0b43a7-ed31-4009-8b1f-956e5ac49acf",
+      "max_doc": 118125,
+      "deletes": null
+    },
+    {
+      "segment_id": "db710269-e51f-4a52-b5a7-443885726ea5",
+      "max_doc": 18690,
+      "deletes": null
+    },
+    {
+      "segment_id": "fa110110-3042-4b13-9a0e-b46bc145519d",
+      "max_doc": 17524,
+      "deletes": null
+    },
+    {
+      "segment_id": "ce52adb4-7f35-4d47-96d4-2b7aed762375",
+      "max_doc": 17355,
+      "deletes": null
+    },
+    {
+      "segment_id": "a43809ad-e87f-4299-9099-2aa5e9c09d09",
+      "max_doc": 12984,
+      "deletes": null
+    },
+    {
+      "segment_id": "ec08b825-d03e-410f-93b3-ab67e523b7d7",
+      "max_doc": 6023,
+      "deletes": null
+    },
+    {
+      "segment_id": "be0ca29c-9b14-40fd-af05-d92b7d0b8f27",
+      "max_doc": 692,
+      "deletes": null
+    },
+    {
+      "segment_id": "f24d80d4-a327-4e3c-9553-ef25d306dc80",
+      "max_doc": 252,
+      "deletes": null
+    },
+    {
+      "segment_id": "f2b228e5-ee8f-47e6-93dc-a3785b591398",
+      "max_doc": 79,
+      "deletes": null
+    },
+    {
+      "segment_id": "58947f0a-f5d4-4e64-af2e-80b248815ead",
+      "max_doc": 48,
+      "deletes": null
+    }
+  ],
+  "schema": [
+    {
+      "name": "source",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "id",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "source_url",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "title",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "de_stem"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "description",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "de_stem"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "umthes",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "bounding_boxes",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "data_types",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "portals",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "files",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "fair",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "id_json",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "tags_json",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "types_json",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "resources_json",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "origins_json",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "license_json",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "organisations_json",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "time_ranges_json",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "quality_json",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "default"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    }
+  ],
+  "opstamp": 312644
+}

@@ -16,3 +16,6 @@ In your virtual Python environment install
 by issuing:
 
 `pip install -r requirements.txt`
+
+The repo utilizes [git lfs](https://git-lfs.com/) for "*.store" and 
+"*.ann" files.
